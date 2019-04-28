@@ -2,4 +2,5 @@
 
 ![](demo.gif)
 
-Adaptive FEM for advection-diffusion problems in one dimension. 
+Adaptive FEM MATLAB library for one dimensional advection-diffusion problems. 
+
