@@ -48,7 +48,7 @@ if (space.T(1)~=probdata.Omega(1)) || (space.T(end)~=probdata.Omega(2))
 end
 
 % Inizalizzazioni
-eta=Inf;    % Per essere certi che almeno venga svolta un'iterazione
+eta=method.maxRes+1;    % Per essere certi che almeno venga svolta un'iterazione
 space_ref=space; % Lo spazio inizia come quello dato, poi viene modificato
 
 for kdx=0:method.maxIter
